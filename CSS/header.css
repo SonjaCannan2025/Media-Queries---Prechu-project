@@ -1,0 +1,50 @@
+
+header{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+ul li{
+  row-gap: 2px; 
+}
+
+.left-side{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+  
+}
+
+.left-header-icon{
+  background-color: #5094f2;
+  color: white;
+  border-radius: 50%;
+  height: 18px;
+  width: 18px;
+  padding: 2px 2px 2px 4px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;  
+}
+
+.left-header-test, p{
+  color: rgb(112, 100, 100);
+  margin-bottom: 10px;  
+  margin-left: 6px;
+}
+
+.right-side li{
+  list-style: none;
+  display: inline;
+  color: rgb(112, 100, 100);
+  margin-right: 16px;
+}
+
+.right-side{
+  display: flex;
+  margin-left: 20px;
+
+}
+
+

@@ -1,0 +1,35 @@
+.basket-container{
+  display: flex;
+
+}
+.left-basket{
+  flex: 1;
+  position: relative;
+}
+.left-basket-text{
+  position: absolute;
+  right: 3px;
+  font-size: 25px; 
+  word-spacing: 10px;  
+}
+
+.left-basket-image{
+  position: absolute;
+  bottom: 2px;
+  right: 3px;
+}
+
+
+.right-basket{
+  flex: 1;
+  line-height: 35px;
+  padding: 40px 80px 10px 40px;  
+  margin-right: 30px;
+
+}
+
+.right-basket-text{
+  font-size: x-small;
+  padding-right: 40px;
+
+}

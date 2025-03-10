@@ -1,0 +1,24 @@
+.footer-banner{
+  display: flex;
+  padding-left: 60px;
+  padding-top: 2px;
+  background-color: black;
+  font-size: larger;
+  color: rgb(97, 91, 91);
+  height: 50px;
+  margin: -10px;
+  width: 80%;
+  margin-left: 60px;  
+}
+
+.footer{
+  display: flex;
+  align-items: center;  
+  border-top: solid gray;
+  border-style: 1px;  
+  margin: auto;
+  padding: 0px 150px 0 250px;
+  width: 544px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
