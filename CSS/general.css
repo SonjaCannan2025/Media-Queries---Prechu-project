@@ -1,8 +1,23 @@
 .main img{
   width: 1080px;
+  position: relative;
 }
 body{
   margin-bottom: 200px;
   margin-left: 40px;
   margin-right: 250px;
+}
+
+/* create the hover icon and position */
+.hover-second-image img{
+  height: 20px;
+}
+
+.hover-container{
+  position: absolute; 
+  right: 250px;  
+  top: -3px; 
+}
+.hover-container:hover{
+  opacity: 2px 0.15;
 }
